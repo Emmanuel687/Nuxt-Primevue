@@ -90,7 +90,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/dev"
+        "./manifest/meta/dev.json"
       ],
       "#build": [
         "."
@@ -145,7 +145,6 @@
   "exclude": [
     "../dist",
     "../node_modules",
-    "../../../node_modules",
     "../node_modules/.pnpm/nuxt@3.13.2_vite@5.4.8/node_modules/nuxt/node_modules",
     "../node_modules/.pnpm/@primevue+nuxt-module@4.0.7_vue@3.5.8/node_modules/@primevue/nuxt-module/runtime/server",
     "../node_modules/.pnpm/@primevue+nuxt-module@4.0.7_vue@3.5.8/node_modules/@primevue/nuxt-module/dist/runtime/server",
